@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root{
+    --font-size:0.8rem;
+    --white:#F5F8FA;
+    --blue:#1DA1F2;
+    --black:#14171A;
+    --lightgray:#AAB8C2;
+    --darkgray:#657786;
+}
+main{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin:0 auto;
+    max-width:1500px;
+}
+
